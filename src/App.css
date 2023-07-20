@@ -1,0 +1,25 @@
+.App {
+  display: grid;
+  height: 90vh;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 20px; */
+  font-weight: bold;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 0px #888;
+  border-radius: 10px;
+}
+
+.gameOver {
+  background-color: var(--xRed);
+}
+
+.buttonR>* {
+  margin: 2px;
+}
